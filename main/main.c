@@ -1,5 +1,6 @@
 /*0.Documentation Section: main.c*/
 //Authors: Marten Ehab Fouad Askander 2101642
+*          Ahmed Haitham Ismael El-Ebidy 2101629
 //Description: the main C file for our GPS/Tiva C project.
 
 
