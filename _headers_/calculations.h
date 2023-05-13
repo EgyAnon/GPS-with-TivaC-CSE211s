@@ -3,7 +3,8 @@
 
 /*0.Documentation Section
  *Description: this header file contains functions used to do calculations and act upon data extracted from the GPS module
- *Authors: Mahmoud Hassan Abdelwahab Amin 2001246
+ *Authors: Mahmoud Hassan Abdelwahab Amin 2001246 &
+	Marten Ehab Fouad Askander 2101642 
  */
 
 #include <math.h>
