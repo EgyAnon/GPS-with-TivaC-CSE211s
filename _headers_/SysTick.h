@@ -3,8 +3,7 @@
 
 /*0.Documentation Section*/
 //Description: a file containing all time-related functions.
-//Author:  x
-
+//Author:  Ahmed Haitham Ismael El-Ebidy 2101629
 
 #include "tm4c123gh6pm.h"
 void PLL_init(void);
@@ -13,7 +12,7 @@ void SysTick_1ms(unsigned int n_ms);
 void Delay_1s(unsigned int seconds);
 
 
-void PLL_init(void)     //configures the frequency to 80MHz
+void PLL_init(void)     //configures the frequency to 80MHz (HIGH PERFORMANCE MODE)
 {
 	SYSCTL_RCC2_R |= 0x80000000; // USERCC2
 	SYSCTL_RCC2_R |= 0x00000800; // BYPASS2, PLL bypass
