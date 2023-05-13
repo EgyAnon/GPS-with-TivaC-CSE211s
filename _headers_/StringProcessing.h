@@ -3,7 +3,8 @@
 
 /*0.Documentation Section*/
 /* Description: this header file contains all the functions required to read extract useful data from the GPS module
- * Authors:
+ * Authors: Ahmed Haitham Ismael El-Ebidy 2101629
+ *	    Ahmed Gamal Sdeek Ahmed 2002048
  */
 
 
