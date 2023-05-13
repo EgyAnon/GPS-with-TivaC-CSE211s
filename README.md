@@ -17,3 +17,5 @@ and making simple decisions based on these data.
 
 We have deployed the UART synchronization protocol in making the launchpad communicate with the GPS module, and have wrote functions to calculate distance and toggle LEDs both built in the board and external (on a breadboard, via GPIO).
 
+**NOTE**
+In building this project, we've used **CODE COMPOSER STUDIO (CCS)** as our preferred compiler.
