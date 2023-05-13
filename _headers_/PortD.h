@@ -2,7 +2,7 @@
 #define _PORTD_H_
 
 /*0.Documentation Section
- * Author: Ahmed Haitham Ismael El-Ebidy
+ * Author:Ahmed Ibrahim Ali Aboshanab 2000267
  * Date: May, 11th, 2023
  * Description: A header file containing functions related to port D in the TM4C123GH6PM microcontroller
 */
