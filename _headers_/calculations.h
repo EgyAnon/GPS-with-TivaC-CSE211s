@@ -35,7 +35,7 @@ extern bool reached_target;
 
 void Control_Action(float dist)
 {
-    if (dist <3)    //target reached - GREEN
+    if (dist <1)    //target reached - GREEN
     {
         GPIO_PORTD_DATA_R &= ~(0x07);
         GPIO_PORTD_DATA_R |= 0x04;
@@ -44,7 +44,7 @@ void Control_Action(float dist)
         SetGreen();
     }
 
-    else if (dist<10)   //target close - YELLOW
+    else if (dist<5)   //target close - YELLOW
     {
           GPIO_PORTD_DATA_R &= ~(0x07);
           GPIO_PORTD_DATA_R |= 0x02;
