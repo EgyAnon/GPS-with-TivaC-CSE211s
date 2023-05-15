@@ -42,7 +42,7 @@ float Extract_Latitude(char *GPGGA_Sequence)
 	int i;
 	for(i = 0; i<10;i++)
 	{
-		if(i==4) continue;
+		if(i==4) continue; //if the character is a perid, skip
 		
 		latitude*=10;
 		latitude+=(GPGGA[17+i]-48);
@@ -60,7 +60,7 @@ float Extract_Longitude(char *GPGGA_Sequence)
     int i;
     for(i = 0; i<11;i++)
     {
-        if(i==5) continue;
+        if(i==5) continue;	//if the character is a perid, skip
 
         longitude*=10;
         longitude+=(GPGGA[30+i]-48);
