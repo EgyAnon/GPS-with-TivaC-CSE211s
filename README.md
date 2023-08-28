@@ -3,7 +3,7 @@ A project for the "CSE211s: Introduction to Embedded Systems" course
 
 
 Team Members: 
-Marten Ehab Fouad Askander 2101642. \n
+Marten Ehab Fouad Askander 2101642.
 Mohamed Gamal El-Din Abduljalil 2001078.
 Ahmed Gamal Sdeek Ahmed 2002048.
 Ahmed Ibrahim Ali Aboshanab 2000267.
